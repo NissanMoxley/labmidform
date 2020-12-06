@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="regform">
+        <h1>
+ Registration Form</h1>
+</div>
+<div class="main">
+    
+        <form method="POST">
+            <div id="name">
+                <h2 class="name">
+Name </h2>
+<input class="firstname" type="text" name="first_name"><br>
+                <label class="firstlabel">first name</label>
+                <input class="lastname" type="text" name="last_name"><br>
+                <label class="lastlabel">last name</label>
+            </div>
+<h2 class="name">
+Company </h2>
+<input class="company" type="text" name="company">
+            <h2 class="name">
+Email</h2>
+<input class="email" type="email" name="email">
+            <h2 class="name">
+Phone</h2>
+<input class="Code" type="text" name="area_code">
+            <label class="area-code">Area Code</label>
+            <input class="number" type="text" name="phone">
+            <label class="phone-number">Phone Number</label>
+    
+    
+            <h2 class="name">
+Country</h2>
+<select class="option" name="Country">
+                <option disabled="disabled" selected="selected">--Choose option--</option>
+                <option>Bangladesh</option>
+                <option>India</option>
+                <option>China</option>
+                <option>Japan</option>
+                <option>USA</option>
+                <option>Brazil</option>
+                <option>France</option>
+                <option>Italy</option>
+                <option>Portugal</option>
+                <option>Germany</option>
+                <option>Russia</option>
+                <option>pakistan</option>
+                <option>Nepal</option>
+                <option>Chile</option>
+                
+                
+
+
+            </select>
+    
+            <h2 id="coustomer">
+Do you Agree you agree to the terms & policies?</h2>
+<label class="radio">
+                <input class="radio-one" type="radio" checked="checked" name="rdiobtn">
+                <span class="checkmark"></span>
+                Yes
+            </label>
+    
+            <label class="radio">
+                <input class="radio-two" type="radio" name="rdiobtn">
+                <span class="checkmark"></span>
+                No
+            </label>
+    
+            <button type="submit">Register</button>
+    
+    
+        </form>
+</div>
+</body>
+</html>
